@@ -1,34 +1,58 @@
 fileFormatVersion: 2
-guid: 08260f974810741498907f559cc4bf1e
+guid: b453b2fdb44447149a210c46568322cc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3179883838217040017
-    second: GrassBase
+      213: -6689540740592704288
+    second: TerrainGrass1
   - first:
-      213: 143573174869065505
-    second: GrassOvergrown
+      213: -5267284143617048966
+    second: TerrainDirtRight
   - first:
-      213: 8436062847033441906
-    second: GrassFlowers
+      213: 1383016152872837590
+    second: TerrainDirtOutsideTopLeft
   - first:
-      213: -7286132708082295485
-    second: GrassMudTransition
+      213: 6912053045261451996
+    second: TerrainDirtTop
   - first:
-      213: -1663575074933733167
-    second: GrassBaseTransition
+      213: 539215951856977315
+    second: Diabolical_TerrainV2 1_4
   - first:
-      213: -8332848989804991701
-    second: GrassOvergrownTransition
+      213: 5306532405096113135
+    second: TerrainDirtLeft
   - first:
-      213: 6955319595834006504
-    second: DirtMud
+      213: -908956648097897128
+    second: TerrainDirtOutsideBottomRight
   - first:
-      213: 553425511539614781
-    second: DirtLightMud
+      213: 1299420975671353238
+    second: TerrainDirtBottom
   - first:
-      213: -5254220445817887597
-    second: DirtBase
+      213: -3186499180405931385
+    second: TerrainDirtOutsideBottomLeft
+  - first:
+      213: -5833515504310822681
+    second: TerrainDirt1
+  - first:
+      213: -4908963737519424861
+    second: TerrainDirt2
+  - first:
+      213: 8585902841231320903
+    second: TerrainGrass2
+  - first:
+      213: 344824277504707588
+    second: TerrainGrassFlowers
+  - first:
+      213: 8406702332196046194
+    second: TerrainDirtCornerBottomRight
+  - first:
+      213: 2263368600170014542
+    second: TerrainDirtCornerBottomLeft
+  - first:
+      213: -7036141323398046428
+    second: TerrainDirtCornerTopRight
+  - first:
+      213: 7584914737067648045
+    second: TerrainDirtCornerTopLeft
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -154,7 +178,259 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GrassBase
+      name: TerrainGrass1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4e77e932af923a0800000000000000
+      internalID: -6689540740592704288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainDirtRight
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e78a88af8d6e6b0800000000000000
+      internalID: -5267284143617048966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainDirtOutsideTopLeft
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1ec9e0dd5713310800000000000000
+      internalID: 1383016152872837590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainDirtTop
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2477f7f9b8cef50800000000000000
+      internalID: 6912053045261451996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diabolical_TerrainV2 1_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5c8a32d0eab7700800000000000000
+      internalID: 539215951856977315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainDirtLeft
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe36ad27b1794a940800000000000000
+      internalID: 5306532405096113135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainDirtOutsideBottomRight
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85525e19ebcb263f0800000000000000
+      internalID: -908956648097897128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainDirtBottom
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f15942e78780210800000000000000
+      internalID: 1299420975671353238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainDirtOutsideBottomLeft
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782c4d2d0e747c3d0800000000000000
+      internalID: -3186499180405931385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainDirt1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8d1dd5e803b0fa0800000000000000
+      internalID: -5833515504310822681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainDirt2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa71e15d7bdfdbb0800000000000000
+      internalID: -4908963737519424861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainGrass2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7472c9fd421472770800000000000000
+      internalID: 8585902841231320903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TerrainGrassFlowers
       rect:
         serializedVersion: 2
         x: 0
@@ -168,14 +444,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6f41143f78ced3d0800000000000000
-      internalID: -3179883838217040017
+      spriteID: 40c499a7adf09c400800000000000000
+      internalID: 344824277504707588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GrassOvergrown
+      name: TerrainDirtCornerBottomRight
       rect:
         serializedVersion: 2
         x: 32
@@ -189,14 +465,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12f7857ba031ef100800000000000000
-      internalID: 143573174869065505
+      spriteID: 2754ef20b3b9aa470800000000000000
+      internalID: 8406702332196046194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GrassFlowers
+      name: TerrainDirtCornerBottomLeft
       rect:
         serializedVersion: 2
         x: 64
@@ -210,14 +486,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27e7c44967ae21570800000000000000
-      internalID: 8436062847033441906
+      spriteID: e4728e000c9196f10800000000000000
+      internalID: 2263368600170014542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GrassMudTransition
+      name: TerrainDirtCornerTopRight
       rect:
         serializedVersion: 2
         x: 96
@@ -231,14 +507,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34d5664d7e472ea90800000000000000
-      internalID: -7286132708082295485
+      spriteID: 42d9965deba9a5e90800000000000000
+      internalID: -7036141323398046428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GrassBaseTransition
+      name: TerrainDirtCornerTopLeft
       rect:
         serializedVersion: 2
         x: 128
@@ -252,92 +528,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d88169884bc9e8e0800000000000000
-      internalID: -1663575074933733167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GrassOvergrownTransition
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2b63bb3ef5cb5c80800000000000000
-      internalID: -8332848989804991701
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DirtMud
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ebdff05252468060800000000000000
-      internalID: 6955319595834006504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DirtLightMud
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3425f012992ea700800000000000000
-      internalID: 553425511539614781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DirtBase
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3942e63b7524517b0800000000000000
-      internalID: -5254220445817887597
+      spriteID: d24ea8a44c7034960800000000000000
+      internalID: 7584914737067648045
       vertices: []
       indices: 
       edges: []

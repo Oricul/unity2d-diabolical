@@ -1,5 +1,4 @@
 using System.Collections;
-using System;
 using UnityEngine;
 
 [SelectionBase]
@@ -38,10 +37,8 @@ public class PlayerMovement : MonoBehaviour
             {
                 if (_horizontalInput > 0.01f)
                 {
-                    _sprite.flipX = false;
                     StartCoroutine(MovePlayer(Vector2.right));
                 } else if (_horizontalInput < -0.01f) {
-                    _sprite.flipX = true;
                     StartCoroutine(MovePlayer(Vector2.left));
                 } else if (_verticalInput > 0.01f) {
                     StartCoroutine(MovePlayer(Vector2.up));
@@ -58,6 +55,24 @@ public class PlayerMovement : MonoBehaviour
     {
         _isMoving = true;
         float elapsedTime = 0;
+        bool needFlip = false;
+        if (direction == Vector2.right && _sprite.flipX)
+        {
+            needFlip = true;
+        } else if (direction == Vector2.left && !_sprite.flipX) {
+            needFlip = true;
+        }
+        if (needFlip)
+        {
+            while (elapsedTime < _timeToMove)
+            {
+                elapsedTime += Time.deltaTime;
+                yield return null;
+            }
+            _sprite.flipX = !_sprite.flipX;
+            _isMoving = false;
+            yield break;
+        }
         _origPos = transform.position;
         _targetPos = _origPos + direction;
         while(elapsedTime < _timeToMove)
