@@ -4,31 +4,31 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -3179883838217040017
-    second: TerrainGrassBasic
+    second: GrassBase
   - first:
       213: 143573174869065505
-    second: TerrainGrassDirtMuddyBorder
+    second: GrassOvergrown
   - first:
       213: 8436062847033441906
-    second: TerrainGrassOvergrown
+    second: GrassFlowers
   - first:
       213: -7286132708082295485
-    second: TerrainGrassFlowers
+    second: GrassMudTransition
   - first:
       213: -1663575074933733167
-    second: TerrainGrassDirtBasicBorder
+    second: GrassBaseTransition
   - first:
       213: -8332848989804991701
-    second: TerrainGrassDirtOvergrownBorder
+    second: GrassOvergrownTransition
   - first:
       213: 6955319595834006504
-    second: TerrainDirtMuddy
+    second: DirtMud
   - first:
       213: 553425511539614781
-    second: TerrainDirtMuddyLight
+    second: DirtLightMud
   - first:
       213: -5254220445817887597
-    second: TerrainDirtBasic
+    second: DirtBase
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -73,7 +73,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -154,7 +154,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TerrainGrassBasic
+      name: GrassBase
       rect:
         serializedVersion: 2
         x: 0
@@ -175,10 +175,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TerrainGrassDirtMuddyBorder
+      name: GrassOvergrown
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 0
         width: 32
         height: 32
@@ -196,10 +196,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TerrainGrassOvergrown
+      name: GrassFlowers
       rect:
         serializedVersion: 2
-        x: 32
+        x: 64
         y: 0
         width: 32
         height: 32
@@ -217,10 +217,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TerrainGrassFlowers
+      name: GrassMudTransition
       rect:
         serializedVersion: 2
-        x: 64
+        x: 96
         y: 0
         width: 32
         height: 32
@@ -238,7 +238,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TerrainGrassDirtBasicBorder
+      name: GrassBaseTransition
       rect:
         serializedVersion: 2
         x: 128
@@ -259,7 +259,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TerrainGrassDirtOvergrownBorder
+      name: GrassOvergrownTransition
       rect:
         serializedVersion: 2
         x: 160
@@ -280,7 +280,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TerrainDirtMuddy
+      name: DirtMud
       rect:
         serializedVersion: 2
         x: 192
@@ -301,7 +301,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TerrainDirtMuddyLight
+      name: DirtLightMud
       rect:
         serializedVersion: 2
         x: 224
@@ -322,7 +322,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TerrainDirtBasic
+      name: DirtBase
       rect:
         serializedVersion: 2
         x: 256
