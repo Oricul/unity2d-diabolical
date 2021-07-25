@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _body;
     private Animator _animator;
     private SpriteRenderer _sprite;
+    private PlayerDetection _detect;
     private float _horizontalInput, _verticalInput;
     private float _timeToMove = 0.2f;
     private bool _isMoving;
@@ -25,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
         _animator = GetComponent<Animator>();
         _sprite = GetComponent<SpriteRenderer>();
         _audioSource = GetComponent<AudioSource>();
+        _detect = GetComponent<PlayerDetection>();
     }
 
     private void Update()
@@ -73,6 +75,16 @@ public class PlayerMovement : MonoBehaviour
             _isMoving = false;
             yield break;
         }
+        RaycastHit2D[] pathDetection = _detect.DetectObject(direction);
+        foreach (RaycastHit2D detection in pathDetection)
+        {
+            if (detection.collider.tag == "Boundary")
+            {
+                // _audioSource.PlayOneShot(_boundsSound, _boundsVolume);
+                _isMoving = false;
+                yield break;
+            }
+        }
         _origPos = transform.position;
         _targetPos = _origPos + direction;
         while(elapsedTime < _timeToMove)
@@ -83,13 +95,5 @@ public class PlayerMovement : MonoBehaviour
         }
         transform.position = _targetPos;
         _isMoving = false;
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Boundary")
-        {
-            //_audioSource.PlayOneShot(_boundsSound, _boundsVolume);
-        }
     }
 }
