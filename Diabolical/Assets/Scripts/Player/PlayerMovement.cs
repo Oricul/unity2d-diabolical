@@ -15,9 +15,9 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 _origPos, _targetPos;
     public bool _movementEnabled = true;
     [SerializeField] AudioClip _walkSound;
-    [SerializeField] AudioClip _walkVolume;
+    [SerializeField] float _walkVolume;
     [SerializeField] AudioClip _boundsSound;
-    [SerializeField] AudioClip _boundsVolume;
+    [SerializeField] float _boundsVolume;
     private AudioSource _audioSource;
 
     private void Awake()
